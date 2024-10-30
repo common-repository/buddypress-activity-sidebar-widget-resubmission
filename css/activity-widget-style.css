@@ -1,0 +1,66 @@
+/* CSS Document */
+
+
+ul#wa-bp-activity-stream li.activity-item {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 5px 5px 5px 5px;
+    margin-top: 5px;
+}
+ul.wa-bp-activity-list > li:first-child {
+    padding-top: 5px;
+}
+ul.wa-bp-activity-list > li {
+    min-height: 70px;
+    overflow: hidden;
+    padding: 20px 20px 16px !important;
+}
+
+.wa-bp-activity-list .wa-bp-activity-avatar {
+    display: block;
+    float: left;
+    margin-top: 3px;
+}
+
+.wa-bp-activity-list .wa-bp-activity-avatar img {
+    border: 1px solid #E0E0E0;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: none;
+    padding: 3px;
+	float: left;
+    margin: 0 10px 0 0;
+}
+
+.wa-bp-activity-header img.avatar {
+    display: none;
+}
+
+.wa-bp-activity-header span.time-since {
+	font-size: 10px;
+	color: #999;
+}
+
+.wa-bp-activity-list .wa-bp-activity-content {
+    display: block;
+    margin-bottom: 15px;
+    margin-left: 75px;
+}
+.wa-bp-activity-list .wa-bp-activity-content .wa-bp-activity-header {
+    font-size: 10px;
+}
+.wa-bp-activity-header {
+    display: block;
+    font-weight: 700;
+    line-height: 1.7em;
+    margin-right: 20px;
+}
+
+
+.wa-bp-activity-list .wa-bp-activity-content .wa-bp-activity-inner, .wa-bp-activity-list .wa-bp-activity-content blockquote {
+    margin: 5px 0 0;
+    overflow: hidden;
+}
+
+.wa-bp-activity-inner {
+    display: block;
+    font-size: 14px;
+}
